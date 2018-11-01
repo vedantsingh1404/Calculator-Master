@@ -27,19 +27,6 @@ public class MainActivity extends AppCompatActivity {
         bottomText.setText(bottomText.getText().toString() + string);
     }
 
-    public void clickSpecial(View view) {
-        Button button = (Button) view;
-
-        Toast.makeText(MainActivity.this, "Saale 0 ko hi 2 baar daba deta, aalsi !", Toast.LENGTH_LONG).show();
-
-        String string = button.getText().toString();
-
-        TextView bottomText = findViewById(R.id.textView1);
-
-        bottomText.setText(bottomText.getText().toString() + string);
-
-    }
-
     public void clickOperator(View view) {
 
         TextView bottomText = findViewById(R.id.textView1);
