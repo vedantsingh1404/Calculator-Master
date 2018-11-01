@@ -149,7 +149,7 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:backgroundTint="@android:color/holo_orange_dark"
-            android:onClick="clickSpecial"
+            android:onClick="clickNumber"
             android:text="00"
             android:textSize="25sp"
             android:background="@drawable/rounded_button"/>
